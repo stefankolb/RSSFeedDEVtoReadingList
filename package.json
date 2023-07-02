@@ -1,0 +1,19 @@
+{
+  "name": "@stefankolb/rss-feed-dev-to-reading-list",
+  "version": "1.0.0",
+  "description": "A script to create an RSS feed for the articles you saved to your DEV.to Reading List",
+  "license" : "SEE LICENSE IN LICENSE",
+  "author": "Stefan Kolb",
+  "homepage": "https://github.com/stefankolb/RSSFeedDEVtoReadingList",
+  "repository": "git@github.com:stefankolb/RSSFeedDEVtoReadingList.git",
+  "bugs": "https://github.com/stefankolb/RSSFeedDEVtoReadingList/issues",
+  "main": "index.js",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "feed": "4.2.2"
+  },
+  "scripts": {
+    "build:rss-feed": "node index.js"
+  }
+}
